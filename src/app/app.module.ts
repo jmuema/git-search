@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { ProfileFormComponent } from './profile-form/profile-form.component';
-import { ProfilesComponent } from './profiles/profiles.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     AppComponent,
     ProfileComponent,
     ProfileFormComponent,
-    ProfilesComponent,
     RepositoriesComponent
   ],
   imports: [
