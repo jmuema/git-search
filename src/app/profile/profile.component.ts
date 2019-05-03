@@ -7,13 +7,20 @@ import {Repo} from '../repo';
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.css']
+  styleUrls: ['./profile.component.css'],
+  providers:[ProfileService]
 })
 export class ProfileComponent implements OnInit {
+    
+  user: User;
+  // repo: Repo;
+  // repos: Repo[];
+ constructor(private profileService: ProfileService, public repoService: ProfileService) { 
+ this.user = this.profileService.user;
+ }
+ ngOnInit() {
+  // this.profileService.getProfileInfo(this.username);
+  this.user = this.profileService.user;
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+}
 }
