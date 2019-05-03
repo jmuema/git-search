@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import {Searching} from '../searching ';
+import { ProfileService } from '../profiles/profile.service';
+
 
 @Component({
   selector: 'app-profile-form',
@@ -7,9 +10,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileFormComponent implements OnInit {
 
-  constructor() { }
-
+  submitSearch(name) {
+    this.profileService.getProfileInfo(name.target.value);
+    this.repoService.getRepoInfo(name.target.value);
+  }
+   constructor(private profileService: ProfileService, private repoService: ProfileService) { }
   ngOnInit() {
   }
-
-}
+ }
