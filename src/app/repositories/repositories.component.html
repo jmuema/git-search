@@ -1,3 +1,7 @@
-<p>
-  repositories works!
-</p>
+<div>
+  <ul *ngFor='let repo of repoService.repo ; let i = index'>
+    <li>
+      {{repoService.repos$[i].name}}
+    </li>
+  </ul>
+</div>
