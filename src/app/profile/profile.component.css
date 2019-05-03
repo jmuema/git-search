@@ -77,7 +77,7 @@ font-family: 'Baloo Bhai', cursive;
 }
 h2{
 animation: shake 0.5s;
-animation-iteration-count: infinite;
+animation-iteration-count: infinite; 
 }
 .card-title{
 font-family: 'Boogaloo', cursive;
