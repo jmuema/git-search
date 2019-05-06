@@ -22,6 +22,11 @@ This is a website where you can search Github users, view their repositories and
   3. Run the git clone command with the copied links
   4. Make changes to the remote(s) used to point to your repository
   5. follow the angular instructions below.
+  
+  ## Behaviour Driven Development
+
+Below shows an image identifying different function executions
+![Image](final.jpg)
 
 
   ## technologies used
@@ -61,4 +66,4 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 ## License
-This project is licensed under the terms of the MIT license. Copyright (c) 2019 Joseph Muema Mwangangi.
+-This project is licensed under the terms of the [MIT license](https://github.com/jmuema/Web-work/blob/master/MIT%20License)
